@@ -52,7 +52,8 @@ Plugin 'yypower/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Bundle 'tpope/vim-rails.git'
@@ -65,7 +66,7 @@ Plugin 'spf13/vim-colors'
 Plugin 'tpope/vim-surround'
 Plugin 'spf13/vim-autoclose'
 Plugin 'kien/ctrlp.vim'
-" Bundle 'flazz/vim-colorschemes'
+Bundle 'flazz/vim-colorschemes'
 Plugin 'mbbill/undotree'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-fugitive'
