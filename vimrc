@@ -155,6 +155,10 @@ cmap w!! w !sudo tee % >/dev/null
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Eliminating delays on ESC in vim
+set timeoutlen=1000
+set ttimeoutlen=0
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
@@ -213,7 +217,6 @@ set tm=500
 
 " Add a bit extra margin to the left
 set foldcolumn=1
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
@@ -684,3 +687,4 @@ endfunction
         endif
     " }
 " }
+
